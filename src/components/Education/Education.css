@@ -10,7 +10,7 @@
     width: 100%;
     color: hsla(117, 56%, 49%, 0.702);
     background-image: url("../../assets/img/EducationBG.png");
-     background-size:     cover;                      /* <------ */
+    background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center; 
 }
