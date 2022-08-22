@@ -1,6 +1,6 @@
 import blueThemegirl from '../assets/svg/about/blueTheme-girl.svg'
 import blueThemeboy from '../assets/svg/about/blueTheme-boy.svg'
-import bwThemeboy from '../assets/svg/about/bwTheme-boy.svg'
+import bwThemeboy from '../assets/img/whoami.png'
 import bwThemegirl from '../assets/svg/about/bwTheme-girl.svg'
 import greenThemeboy from '../assets/svg/about/greenTheme-boy.svg'
 import greenThemegirl from '../assets/svg/about/greenTheme-girl.svg'

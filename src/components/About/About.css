@@ -34,6 +34,10 @@
     justify-content: space-around;
     padding-top: 8rem;
     height: fit-content;
+    background-image: url("../../assets/img/textureBG.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    
 }
 
 .about-description {
@@ -44,6 +48,7 @@
     flex: 0.5;
     width: 100%;
     height: fit-content;
+    padding-bottom: 200px;
 }
 
 .about-description >h2 {

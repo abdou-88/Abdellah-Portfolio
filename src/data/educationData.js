@@ -1,23 +1,23 @@
 export const educationData = [
-    {
-        id: 1,
-        institution: 'Ramjas College, Delhi University',
-        course: 'B.A. Honours History',
-        startYear: '2015',
-        endYear: '2018'
-    },
-    {
-        id: 2,
-        institution: 'Delhi University',
-        course: 'M.A. History',
-        startYear: '2019',
-        endYear: '2021'
-    },
-    {
-        id: 3,
-        institution: 'Masai School of Coding',
-        course: 'Fullstack Web-Development',
-        startYear: '2021',
-        endYear: 'Present'
-    },
-]
+  {
+    id: 1,
+    institution: "Technical University Of Tangier",
+    course: "Bachelor's Degree in Computer Science",
+    startYear: "2006",
+    endYear: "2009",
+  },
+  {
+    id: 2,
+    institution: "Microsoft Training",
+    course: "Extend Microsoft SharePoint – Associate",
+    startYear: "2021/08/01",
+    endYear: "31",
+  },
+  {
+    id: 3,
+    institution: "Microsoft Training",
+    course: "Developing Solutions for Microsoft Azure",
+    startYear: "2022/06/01",
+    endYear: "10",
+  },
+];

@@ -13,7 +13,8 @@ function Skills() {
 
     const skillBoxStyle = {
         backgroundColor: theme.secondary,
-        boxShadow: `0px 0px 30px ${theme.primary30}`
+        boxShadow: `0px 0px 30px ${theme.primary30}`,
+        
     }
 
     return (
