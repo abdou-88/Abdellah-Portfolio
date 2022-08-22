@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { makeStyles } from "@material-ui/core/styles";
+
 import { ThemeContext } from '../../contexts/ThemeContext';
 
 
@@ -19,7 +19,10 @@ function Education() {
         id="education"
         style={{ backgroundColor: theme.secondary }}
       >
-        <div className={`education-body`}>
+        <div
+          className={`education-body`}
+          style={{ backgroundImage: theme.eduBG }}
+        >
           <div className="education-description">
             <h1 style={{ color: theme.primary }}>Education</h1>
             {educationData.map((edu) => (

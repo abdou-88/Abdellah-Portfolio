@@ -1,11 +1,47 @@
 /* eslint-disable */
-import { 
-    blueThemegirl, blueThemeboy, bwThemeboy, bwThemegirl, greenThemeboy, greenThemegirl, orangeThemeboy, 
-    orangeThemegirl, pinkThemeboy, pinkThemegirl, purpleThemeboy, purpleThemegirl, redThemeboy, redThemegirl, yellowThemeboy,
-    yellowThemegirl,eduBlack,eduBlue,eduGreen,eduOrange,eduPink,eduPurple,eduRed,eduYellow,expBlack,expBlue,expGreen,expOrange,
-    expPink,expPurple,expRed,expYellow,contactsBlack,contactsBlue,contactsGreen,contactsOrange,contactsPink,contactsPurple,
-    contactsRed,contactsYellow
-} from './images'
+import {
+  blueThemegirl,
+  blueThemeboy,
+  bwThemeboy,
+  bwThemegirl,
+  greenThemeboy,
+  greenThemegirl,
+  orangeThemeboy,
+  orangeThemegirl,
+  pinkThemeboy,
+  pinkThemegirl,
+  purpleThemeboy,
+  purpleThemegirl,
+  redThemeboy,
+  redThemegirl,
+  yellowThemeboy,
+  yellowThemegirl,
+  eduBlack,
+  eduBlue,
+  eduGreen,
+  eduOrange,
+  eduPink,
+  eduPurple,
+  eduRed,
+  eduYellow,
+  expBlack,
+  expBlue,
+  expGreen,
+  expOrange,
+  expPink,
+  expPurple,
+  expRed,
+  expYellow,
+  contactsBlack,
+  contactsBlue,
+  contactsGreen,
+  contactsOrange,
+  contactsPink,
+  contactsPurple,
+  contactsRed,
+  contactsYellow,
+  EduBG,
+} from "./images";
 
 
 export const greenThemeLight = {
@@ -70,7 +106,8 @@ export const bwThemeLight = {
     aboutimg2: bwThemegirl,
     eduimg: eduBlack,
     expimg: expBlack,
-    contactsimg: contactsBlack
+    contactsimg: contactsBlack,
+    eduBG : EduBG
 }
 export const bwThemeDark = {
   type: "dark",
