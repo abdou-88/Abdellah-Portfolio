@@ -1,11 +1,14 @@
-import resume from '../assets/pdf/resume.pdf'
-import image from '../assets/img/abdu-praca3.jpg'
+import resume from '../assets/pdf/resume.pdf';
+
+import image from '../assets/img/abdu-praca3.jpg';
+import signature from "../assets/img/signature.png";
 
 export const headerData = {
   name: "Abdellah Yousfi",
   title: "Office 365 Developer",
   desciption:
-    "Life may be a meandering path but don't worry about it, rather enjoy it. It is about the journey, not the destination so explore all that comes your way, learn and grow from it, for this journey only happens once.",
+    "Driven and proactive Office 365 developer and administrator with over five years of experience managing, developing and deploying the platform within a large organization. Proven experience in developing and deploying office 365 solutions.",
   image: image,
+  signature: signature,
   resumePdf: resume,
 };

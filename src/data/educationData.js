@@ -1,3 +1,5 @@
+
+
 export const educationData = [
   {
     id: 1,
@@ -5,6 +7,13 @@ export const educationData = [
     course: "Bachelor's Degree in Computer Science",
     startYear: "2006",
     endYear: "2009",
+  },
+  {
+    id: 2,
+    institution: "Code With Mosh",
+    course: "ReactJs Bootcamp",
+    startYear: "2019/08",
+    endYear: "2019/12",
   },
   {
     id: 2,

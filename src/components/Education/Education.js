@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 
 import { ThemeContext } from '../../contexts/ThemeContext';
-
+import eduBG from "../../assets/img/EducationBG.png";
 
 import './Education.css'
 import EducationCard from './EducationCard';
@@ -21,7 +21,7 @@ function Education() {
       >
         <div
           className={`education-body`}
-          style={{ backgroundImage: theme.eduBG }}
+          style={{ backgroundImage: `url(${eduBG})` }}
         >
           <div className="education-description">
             <h1 style={{ color: theme.primary }}>Education</h1>

@@ -4,8 +4,10 @@ import Marquee from "react-fast-marquee";
 import './Skills.css'
 
 import { ThemeContext } from '../../contexts/ThemeContext';
-import { skillsData } from '../../data/skillsData'
-import { skillsImage } from '../../utils/skillsImage'
+import { skillsData } from '../../data/skillsData';
+import { skillsImage } from '../../utils/skillsImage';
+
+import textureBG from '../../assets/img/textureBG.jpg';
 
 function Skills() {
 
@@ -22,7 +24,7 @@ function Skills() {
             <div className="skillsHeader">
                 <h2 style={{color: theme.primary}}>Skills</h2>
             </div>
-            <div className="skillsContainer">
+            <div className="skillsContainer" style={{backgroundImage: `url(${textureBG})`}}>
                 <div className="skill--scroll">
                     <Marquee 
                         gradient={false} 

@@ -1,21 +1,15 @@
-import one from '../assets/svg/projects/one.svg'
-import two from '../assets/svg/projects/two.svg'
-import three from '../assets/svg/projects/three.svg'
-import four from '../assets/svg/projects/four.svg'
-import five from '../assets/svg/projects/five.svg'
-import six from '../assets/svg/projects/six.svg'
-import seven from '../assets/svg/projects/seven.svg'
-import eight from '../assets/svg/projects/eight.svg'
+
 import scorecard from "../assets/img/ScoreCard.JPG";
 import schedule  from "../assets/img/Schedule.JPG";
 import botimg from '../assets/img/KBbot.JPG';
+import comingS from "../assets/img/ComingS.jpg";
 
 export const projectsData = [
   {
     id: 1,
     projectName: "Team ScoreCard",
     projectDesc:
-      "This project seeks to explore whether the pedagogy of history can be improved with the visual media, particularly Cinema. The Website is intended to show movies that fit the bill. I have a fullstack role in this having built all of it.",
+      "This project is a SharePoint webpart that exports data from Power BI reports and count the KPI metrics like (Productivity, Availability and Quality) for each agent, the Scorecard has many other features like sorting filtering. Also, it has a configuration panel that uses advanced pnp/spfx property controls, I have a full stack role in this having built all of it from scratch.",
     tags: ["TypeScript", "ReactJs", "HTML", "CSS"],
     code: "https://github.com/abdou-88/TeamManagment",
     demo: "#",
@@ -25,42 +19,42 @@ export const projectsData = [
     id: 2,
     projectName: "Team Schedule",
     projectDesc:
-      "This is a clone of an e-commerce website sportsjam.in. My contribution to this project was the product catalogue page and its features, like sorting and filtering. The rest of the project was built by various members of the group",
+      "This project is a JavaScript timeline calendar. that helps leaders and supervisors to easily schedule their teams, it has many features like checking for any gaps or labor law mistakes. Also, it counts and compare hours for each agent, and many other features.\n I have a full stack role in this having built all of it.",
     tags: ["HTML", "CSS", "Javascript"],
-    code: "https://github.com/abdou-88",
-    demo: "https://practical-meninsky-36f305.netlify.app/",
+    code: "https://github.com/abdou-88/Schedule-JS",
+    demo: "#",
     image: schedule,
-  },
-  {
-    id: 3,
-    projectName: "Scheduler V2",
-    projectDesc:
-      "This project is the clone of Educative.io. Built as part of Project week, my contributions include the home page(both with user and without user), course information page and checkout page. The rest of the pages and features were built by other members of my team",
-    tags: ["React", "Material UI", "Express", "MongoDB", "NodeJS"],
-    code: "https://github.com/abdou-88",
-    demo: "https://educative-clone.vercel.app/",
-    image:
-      "https://user-images.githubusercontent.com/85482640/161571651-35ab8e4e-dc57-4834-bafc-9485766f5b8a.png",
   },
   {
     id: 5,
     projectName: "Knowledge Assistant Bot",
     projectDesc:
-      "This project is the clone of Reliance Digital built as a part of a project week. It simulates the functionality of an e-commerce website from landing page to checkout. My contribution was the product catalog page arriving from the navbar, as well as leading the team.",
-    tags: ["HTML", "CSS", "TypeScript" , "ReactJS"],
-    code: "https://github.com/iamrituyadav/Reliance_digital",
-    demo: "https://reliance-digital-clone.herokuapp.com/",
+      "This project is a PVA bot integrated into a SharePoint extension popup, that helps the operation team to get the info needed from the knowledge base quickly.",
+    tags: ["TypeScript", "ReactJS", "HTML", "CSS", "PVA"],
+    code: "https://github.com/abdou-88",
+    demo: "#",
     image: botimg,
   },
+  {
+    id: 3,
+    projectName: "Scheduler V2",
+    projectDesc:
+      "This project is the version 2 of the first Schedule, during the migration to SPO the new version needs to be created as a SPFX solution. The new schedule has more features like individual views and integration with MS Graph to fetch the info needed directly from the user profile.",
+    tags: ["TypeScript", "ReactJS", "HTML", "CSS"],
+    code: "https://github.com/abdou-88",
+    demo: "#",
+    image: comingS,
+  },
+
   {
     id: 4,
     projectName: "Sharepoint Lists Webpart",
     projectDesc:
-      "This is the clone of reliancedigital.in. Features I worked on the Product Catalogue pages and also on some minor parts on other pages as well",
-    tags: ["EJS", "Express", "MongoDB", "Node.js"],
+      "This is a sharepoint extension tool that allows the users to quickly create a customizable popup button any where, to manage the items of any SP list (Add, Edit, Delete).",
+    tags: ["TypeScript", "ReactJS", "HTML", "CSS"],
     code: "https://github.com/abdou-88",
-    demo: "https://reliance-digital-clone.herokuapp.com/",
-    image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png",
+    demo: "#",
+    image: comingS,
   },
 ];
 
