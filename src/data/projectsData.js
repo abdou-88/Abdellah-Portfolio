@@ -9,8 +9,8 @@ export const projectsData = [
     id: 1,
     projectName: "Team ScoreCard",
     projectDesc:
-      "This project is a SharePoint webpart that exports data from Power BI reports and count the KPI metrics like (Productivity, Availability and Quality) for each agent, the Scorecard has many other features like sorting filtering. Also, it has a configuration panel that uses advanced pnp/spfx property controls, I have a full stack role in this having built all of it from scratch.",
-    tags: ["TypeScript", "ReactJs", "HTML", "CSS"],
+      "This project is a SharePoint webpart that exports data from Power BI reports and count the KPI metrics like (Productivity, Availability and Quality). Also, it has a configuration panel that uses advanced pnp/spfx property controls, I have a full stack role in this having built all of it from scratch.",
+    tags: ["TypeScript", "ReactJs", "HTML", "CSS", "MS Graph"],
     code: "https://github.com/abdou-88/TeamManagment",
     demo: "#",
     image: scorecard,
@@ -19,7 +19,7 @@ export const projectsData = [
     id: 2,
     projectName: "Team Schedule",
     projectDesc:
-      "This project is a JavaScript timeline calendar. that helps leaders and supervisors to easily schedule their teams, it has many features like checking for any gaps or labor law mistakes. Also, it counts and compare hours for each agent, and many other features.\n I have a full stack role in this having built all of it.",
+      "This project is a JavaScript timeline calendar. it helps leaders and supervisors to easily schedule their teams, it has many features like checking for any gaps or labor law mistakes. Also, it counts and compare hours for each agent. I have a full stack role in this having built all of it.",
     tags: ["HTML", "CSS", "Javascript"],
     code: "https://github.com/abdou-88/Schedule-JS",
     demo: "#",
