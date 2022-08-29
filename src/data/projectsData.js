@@ -2,7 +2,12 @@
 import scorecard from "../assets/img/ScoreCard.JPG";
 import schedule  from "../assets/img/Schedule.JPG";
 import botimg from '../assets/img/KBbot.JPG';
-import schedule2 from "../assets/img/Schedule.gif";
+import schedule2 from "../assets/img/Schedule2.JPG";
+
+///////////////gif///////////////
+
+import ScheduleGif from "../assets/img/Schedule.gif";
+import SchoreCardGif from "../assets/img/ScoreCard.gif";
 
 export const projectsData = [
   {
@@ -12,8 +17,18 @@ export const projectsData = [
       "This project is a SharePoint webpart that exports data from Power BI reports and count the KPI metrics like (Productivity, Availability and Quality). Also, it has a configuration panel that uses advanced pnp/spfx property controls, I have a full stack role in this having built all of it from scratch.",
     tags: ["TypeScript", "ReactJs", "HTML", "CSS", "MS Graph"],
     code: "https://github.com/abdou-88/TeamManagment",
-    demo: "#",
+    demo: SchoreCardGif,
     image: scorecard,
+  },
+  {
+    id: 3,
+    projectName: "Scheduler V2",
+    projectDesc:
+      "This project is the version 2 of the first Schedule, during the migration to SPO the new version needs to be created as a SPFX solution. The new schedule has more features like individual views and integration with MS Graph to fetch the info needed directly from the user profile.",
+    tags: ["TypeScript", "ReactJS", "HTML", "CSS"],
+    code: "https://github.com/abdou-88",
+    demo: ScheduleGif,
+    image: schedule2,
   },
   {
     id: 2,
@@ -35,16 +50,6 @@ export const projectsData = [
     demo: "#",
     image: botimg,
   },
-  {
-    id: 3,
-    projectName: "Scheduler V2",
-    projectDesc:
-      "This project is the version 2 of the first Schedule, during the migration to SPO the new version needs to be created as a SPFX solution. The new schedule has more features like individual views and integration with MS Graph to fetch the info needed directly from the user profile.",
-    tags: ["TypeScript", "ReactJS", "HTML", "CSS"],
-    code: "https://github.com/abdou-88",
-    demo: "#",
-    image: schedule2,
-  },
 
   {
     id: 4,
@@ -54,7 +59,6 @@ export const projectsData = [
     tags: ["TypeScript", "ReactJS", "HTML", "CSS"],
     code: "https://github.com/abdou-88",
     demo: "#",
-   
   },
 ];
 

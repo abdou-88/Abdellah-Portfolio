@@ -8,7 +8,8 @@ import Modal from "@material-ui/core/Modal/";
 import { ThemeContext } from "../../../contexts/ThemeContext";
 
 import placeholder from "../../../assets/img/ComingS.jpg";
-import popImg from "../../../assets/img/Schedule.gif";
+
+
 import "./SingleProject.css";
 
 
@@ -16,10 +17,9 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
   const { setHandlePopUp } = useContext(ThemeContext);
 
   const [open, setOpen] = useState(false);
-  const [popImgStat, setPopImgStat] = useState(popImg);
+  
 
-  const handlePopUpOpen = () => {
-    
+  const handlePopUpOpen = () => {    
     setOpen(true);
     setHandlePopUp();
   };
@@ -91,6 +91,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
             />
             <div className="project--showcaseBtn">
               <a
+                href={() => false}
                 onClick={handlePopUpOpen}
                 target="_blank"
                 rel="noreferrer"
@@ -144,11 +145,14 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
           </div>
         </div>
       </Fade>
+
+      {/* /////////////////////////////////// */}
+
       <Modal open={open} className="popupProg" onClose={handlePopUpClose}>
         <div className="popupProgBox">
           <img
             style={{ width: "100%", height: "100%" }}
-            src={popImgStat}
+            src={demo}
             alt={name}
           />
         </div>
