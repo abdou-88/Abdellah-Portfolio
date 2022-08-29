@@ -16,6 +16,26 @@
     
 }
 
+
+.popupProg{
+    border-radius: 5px;
+    backdrop-filter: blur(20px) !important;
+           
+}
+.popupProgBox {
+    padding: 10px;
+    background-color: #EAEAEA;
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    right: auto;
+    bottom: auto;
+    border: 5px;
+    border-radius: 5px;
+    border-color:#EAEAEA;
+}
 .projectContent {
     display: flex;
     flex-direction: column;

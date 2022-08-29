@@ -121,13 +121,7 @@ function Navbar() {
 
     const classes = useStyles();
 
-    const shortname = (name) => {
-        if (name.length > 12) {
-            return name.split(' ')[0];
-        } else {
-            return name;
-        }
-    };
+
 
     return (
       <div className="navbar">

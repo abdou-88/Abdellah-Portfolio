@@ -2,7 +2,7 @@
 import scorecard from "../assets/img/ScoreCard.JPG";
 import schedule  from "../assets/img/Schedule.JPG";
 import botimg from '../assets/img/KBbot.JPG';
-import comingS from "../assets/img/ComingS.jpg";
+import schedule2 from "../assets/img/Schedule.gif";
 
 export const projectsData = [
   {
@@ -43,7 +43,7 @@ export const projectsData = [
     tags: ["TypeScript", "ReactJS", "HTML", "CSS"],
     code: "https://github.com/abdou-88",
     demo: "#",
-    image: comingS,
+    image: schedule2,
   },
 
   {
@@ -54,7 +54,7 @@ export const projectsData = [
     tags: ["TypeScript", "ReactJS", "HTML", "CSS"],
     code: "https://github.com/abdou-88",
     demo: "#",
-    image: comingS,
+   
   },
 ];
 
