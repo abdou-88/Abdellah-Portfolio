@@ -56,17 +56,21 @@
     .navLink--container {
         margin-top: 3rem;
     }
+    .signature{
+        width: 120px;
+        height: 60px;
+    }
+ 
 }
+
+
 
 
 @media (max-width:600px) {
     .nav-menu{
         color: var(--primary-2);
     }
-    .signature{
-        width: 20px;
-        height: 20px;
-    }
+  
     .navbar--container > h1{
         font-size: 2rem;
     }
@@ -89,6 +93,7 @@
         margin-top: 0rem;
     }
     .navbar--container > h1 {
-        font-size: 1.5rem;
+        font-size: 1.5rem !important;
     }
 }
+

@@ -227,6 +227,13 @@
   .lcr--content {
     margin-top: 60%;
   }
+  
+}
+@media (max-width:800px){
+  .lcr--content  h1 {
+    font-size: 1.5rem;
+    
+  }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
