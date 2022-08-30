@@ -127,6 +127,7 @@ function Navbar() {
       <div className="navbar">
         <div className="navbar--container">
           <img
+            className='signature'
             src={headerData.signature}
             alt=""
            
