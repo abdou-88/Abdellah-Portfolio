@@ -21,6 +21,16 @@ export const projectsData = [
     image: scorecard,
   },
   {
+    id: 6,
+    projectName: "Team ScoreCard",
+    projectDesc:
+      "This project is a SharePoint webpart that exports data from Power BI reports and count the KPI metrics like (Productivity, Availability and Quality). Also, it has a configuration panel that uses advanced pnp/spfx property controls, I have a full stack role in this having built all of it from scratch.",
+    tags: ["TypeScript", "ReactJs", "HTML", "CSS", "MS Graph"],
+    code: "https://github.com/abdou-88/TeamManagment",
+    demo: SchoreCardGif,
+    image: scorecard,
+  },
+  {
     id: 3,
     projectName: "Scheduler V2",
     projectDesc:
