@@ -12,7 +12,7 @@ import SchoreCardGif from "../assets/img/ScoreCard.gif";
 export const projectsData = [
   {
     id: 1,
-    projectName: "Team ScoreCard",
+    projectName: "BoxFolio",
     projectDesc:
       "This project is a SharePoint webpart that exports data from Power BI reports and count the KPI metrics like (Productivity, Availability and Quality). Also, it has a configuration panel that uses advanced pnp/spfx property controls, I have a full stack role in this having built all of it from scratch.",
     tags: ["TypeScript", "ReactJs", "HTML", "CSS", "MS Graph"],
