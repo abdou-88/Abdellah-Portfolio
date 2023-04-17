@@ -16,13 +16,13 @@ export const projectsData = [
     projectName: "BoxFolio",
     projectDesc:
       "BoxFolio is a 3D painter Portfolio that exports data from Power BI reports and count the KPI metrics like (Productivity, Availability and Quality). Also, it has a configuration panel that uses advanced pnp/spfx property controls, I have a full stack role in this having built all of it from scratch.",
-    tags: ["TypeScript", "ReactJs", "HTML", "ThreeJS", "R3F"],
-    code: "https://github.com/abdou-88/TeamManagment",
+    tags: ["TypeScript", "ReactJs", "ThreeJS", "R3F", "CSS"],
+    code: "https://github.com/abdou-88/PainterPortfolio",
     demo: SchoreCardGif,
     image: boxfolio,
   },
   {
-    id: 6,
+    id: 2,
     projectName: "Team ScoreCard",
     projectDesc:
       "This project is a SharePoint webpart that exports data from Power BI reports and count the KPI metrics like (Productivity, Availability and Quality). Also, it has a configuration panel that uses advanced pnp/spfx property controls, I have a full stack role in this having built all of it from scratch.",
@@ -42,7 +42,7 @@ export const projectsData = [
     image: schedule2,
   },
   {
-    id: 2,
+    id: 4,
     projectName: "Team Schedule",
     projectDesc:
       "This project is a JavaScript timeline calendar. it helps leaders and supervisors to easily schedule their teams, it has many features like checking for any gaps or labor law mistakes. Also, it counts and compare hours for each agent. I have a full stack role in this having built all of it.",
@@ -63,7 +63,7 @@ export const projectsData = [
   },
 
   {
-    id: 4,
+    id: 6,
     projectName: "Sharepoint Lists Webpart",
     projectDesc:
       "This is a sharepoint extension tool that allows the users to quickly create a customizable popup button any where, to manage the items of any SP list (Add, Edit, Delete).",
