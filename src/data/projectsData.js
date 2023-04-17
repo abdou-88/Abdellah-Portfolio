@@ -15,8 +15,8 @@ export const projectsData = [
     id: 1,
     projectName: "BoxFolio",
     projectDesc:
-      "BoxFolio is a 3D painter Portfolio that exports data from Power BI reports and count the KPI metrics like (Productivity, Availability and Quality). Also, it has a configuration panel that uses advanced pnp/spfx property controls, I have a full stack role in this having built all of it from scratch.",
-    tags: ["TypeScript", "ReactJs", "ThreeJS", "R3F", "CSS"],
+      "BoxFolio is a 3D Portfolio project I inspired the idea from a famous painter works, I have learn and implemented new 3D skills and animation using React Three Fiber, drei and Gsap for animation animation, I have a full stack role in this having built all of it from scratch.",
+    tags: ["TypeScript", "ReactJs", "ThreeJs", "R3F", "CSS"],
     code: "https://github.com/abdou-88/PainterPortfolio",
     demo: SchoreCardGif,
     image: boxfolio,
