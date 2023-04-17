@@ -1,4 +1,5 @@
 
+import boxfolio from "../assets/img/boxfolio.JPG";
 import scorecard from "../assets/img/ScoreCard.JPG";
 import schedule  from "../assets/img/Schedule.JPG";
 import botimg from '../assets/img/KBbot.JPG';
@@ -14,11 +15,11 @@ export const projectsData = [
     id: 1,
     projectName: "BoxFolio",
     projectDesc:
-      "This project is a SharePoint webpart that exports data from Power BI reports and count the KPI metrics like (Productivity, Availability and Quality). Also, it has a configuration panel that uses advanced pnp/spfx property controls, I have a full stack role in this having built all of it from scratch.",
-    tags: ["TypeScript", "ReactJs", "HTML", "CSS", "MS Graph"],
+      "BoxFolio is a 3D painter Portfolio that exports data from Power BI reports and count the KPI metrics like (Productivity, Availability and Quality). Also, it has a configuration panel that uses advanced pnp/spfx property controls, I have a full stack role in this having built all of it from scratch.",
+    tags: ["TypeScript", "ReactJs", "HTML", "ThreeJS", "R3F"],
     code: "https://github.com/abdou-88/TeamManagment",
     demo: SchoreCardGif,
-    image: scorecard,
+    image: boxfolio,
   },
   {
     id: 6,
@@ -72,9 +73,6 @@ export const projectsData = [
   },
 ];
 
-
-// Do not remove any fields.
-// Leave it blank instead as shown below
 
 /* 
 {
