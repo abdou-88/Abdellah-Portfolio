@@ -4,22 +4,28 @@ import { FaArrowsAlt, FaCode } from "react-icons/fa";
 import Fade from "react-reveal/Fade";
 import Modal from "@material-ui/core/Modal/";
 
-
 import { ThemeContext } from "../../../contexts/ThemeContext";
 
 import placeholder from "../../../assets/img/ComingS.jpg";
 
-
 import "./SingleProject.css";
 
-
-function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
+function SingleProject({
+  id,
+  name,
+  desc,
+  tags,
+  code,
+  demo,
+  link,
+  image,
+  theme,
+}) {
   const { setHandlePopUp } = useContext(ThemeContext);
 
   const [open, setOpen] = useState(false);
-  
 
-  const handlePopUpOpen = () => {    
+  const handlePopUpOpen = () => {
     setOpen(true);
     setHandlePopUp();
   };
@@ -63,12 +69,44 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
       [t.breakpoints.down("sm")]: {
         width: "12em",
       },
-     
     },
   }));
 
   const classes = useStyles();
 
+  let demoButton;
+  if (link === true) {
+    console.log(this.demo);
+      (demoButton = (
+        <a
+          href={() => false}
+          onClick={handlePopUpOpen}
+          target="_blank"
+          rel="noreferrer"
+          className={classes.iconBtn}
+          aria-labelledby={`${name.replace(" ", "-").toLowerCase()} ${name
+            .replace(" ", "-")
+            .toLowerCase()}-demo`}
+        >
+          <FaArrowsAlt
+            id={`${name.replace(" ", "-").toLowerCase()}-demo`}
+            className={classes.icon}
+            aria-label="FullScreen"
+          />
+        </a>
+      ));
+  } else {
+    console.log(link);
+    demoButton = (
+      <a href={demo} className={classes.iconBtn}>
+        <FaArrowsAlt
+          id={`${name.replace(" ", "-").toLowerCase()}-demo`}
+          className={classes.icon}
+          aria-label="FullScreen"
+        />
+      </a>
+    );
+  }
   return (
     <>
       <Fade bottom>
@@ -90,22 +128,8 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
               alt={name}
             />
             <div className="project--showcaseBtn">
-              <a
-                href={() => false}
-                onClick={handlePopUpOpen}
-                target="_blank"
-                rel="noreferrer"
-                className={classes.iconBtn}
-                aria-labelledby={`${name.replace(" ", "-").toLowerCase()} ${name
-                  .replace(" ", "-")
-                  .toLowerCase()}-demo`}
-              >
-                <FaArrowsAlt
-                  id={`${name.replace(" ", "-").toLowerCase()}-demo`}
-                  className={classes.icon}
-                  aria-label="FullScreen"
-                />
-              </a>
+              {demoButton}
+
               <a
                 href={code}
                 target="_blank"

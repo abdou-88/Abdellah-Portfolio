@@ -1,8 +1,7 @@
-
 import boxfolio from "../assets/img/boxfolio.JPG";
 import scorecard from "../assets/img/ScoreCard.JPG";
-import schedule  from "../assets/img/Schedule.JPG";
-import botimg from '../assets/img/KBbot.JPG';
+import schedule from "../assets/img/Schedule.JPG";
+import botimg from "../assets/img/KBbot.JPG";
 import schedule2 from "../assets/img/Schedule2.JPG";
 
 ///////////////gif///////////////
@@ -18,7 +17,8 @@ export const projectsData = [
       "BoxFolio is a 3D Portfolio project I inspired the idea from a famous painter works, I have learn and implemented new 3D skills and animation using React Three Fiber, drei and Gsap for animation animation, I have a full stack role in this having built all of it from scratch.",
     tags: ["TypeScript", "ReactJs", "ThreeJs", "R3F", "CSS"],
     code: "https://github.com/abdou-88/PainterPortfolio",
-    demo: SchoreCardGif,
+    demo: "https://abdou-88.github.io/PainterPortfolio/",
+    linkD: true,
     image: boxfolio,
   },
   {
@@ -29,6 +29,7 @@ export const projectsData = [
     tags: ["TypeScript", "ReactJs", "HTML", "CSS", "MS Graph"],
     code: "https://github.com/abdou-88/TeamManagment",
     demo: SchoreCardGif,
+    linkD: false,
     image: scorecard,
   },
   {
@@ -39,6 +40,7 @@ export const projectsData = [
     tags: ["TypeScript", "ReactJS", "HTML", "CSS"],
     code: "https://github.com/abdou-88",
     demo: ScheduleGif,
+    linkD: false,
     image: schedule2,
   },
   {
@@ -49,6 +51,7 @@ export const projectsData = [
     tags: ["HTML", "CSS", "Javascript"],
     code: "https://github.com/abdou-88/Schedule-JS",
     demo: "#",
+    linkD: false,
     image: schedule,
   },
   {
@@ -59,6 +62,7 @@ export const projectsData = [
     tags: ["TypeScript", "ReactJS", "HTML", "CSS", "PVA"],
     code: "https://github.com/abdou-88",
     demo: "#",
+    linkD: false,
     image: botimg,
   },
 
@@ -70,9 +74,9 @@ export const projectsData = [
     tags: ["TypeScript", "ReactJS", "HTML", "CSS"],
     code: "https://github.com/abdou-88",
     demo: "#",
+    linkD: false,
   },
 ];
-
 
 /* 
 {
