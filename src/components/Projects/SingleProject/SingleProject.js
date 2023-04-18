@@ -75,8 +75,8 @@ function SingleProject({
   const classes = useStyles();
 
   let demoButton;
-  if (link === true) {
-    console.log(this.demo);
+  if (link === false) {
+   
       (demoButton = (
         <a
           href={() => false}
@@ -96,7 +96,7 @@ function SingleProject({
         </a>
       ));
   } else {
-    console.log(link);
+    
     demoButton = (
       <a href={demo} className={classes.iconBtn}>
         <FaArrowsAlt
