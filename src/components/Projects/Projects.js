@@ -68,6 +68,7 @@ function Projects() {
                   link={project.linkD}
                   image={project.image}
                 />
+               
               ))}
             </div>
 
