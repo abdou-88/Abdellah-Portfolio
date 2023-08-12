@@ -1356,12 +1356,12 @@
             ],
           });
         },
-        Lt = a.p + "abdou-88.github.io/static/media/boxfolio.1d3bb8b6.JPG",
-        Mt = a.p + "abdou-88.github.io/static/media/ScoreCard.ad3e5e1c.JPG",
-        Tt = a.p + "abdou-88.github.io/static/media/Schedule.717d71bc.JPG",
-        Rt = a.p + "abdou-88.github.io/static/media/KBbot.6aabb717.JPG",
-        Yt = a.p + "abdou-88.github.io/static/media/Schedule2.3b551f27.JPG",
-        Zt = a.p + "abdou-88.github.io/static/media/Schedule.69cfb728.gif",
+        Lt = a.p + "/abdou-88.github.io/static/media/boxfolio.1d3bb8b6.JPG",
+        Mt = a.p + "/abdou-88.github.io/static/media/ScoreCard.ad3e5e1c.JPG",
+        Tt = a.p + "/abdou-88.github.io/static/media/Schedule.717d71bc.JPG",
+        Rt = a.p + "/abdou-88.github.io/static/media/KBbot.6aabb717.JPG",
+        Yt = a.p + "/abdou-88.github.io/static/media/Schedule2.3b551f27.JPG",
+        Zt = a.p + "/abdou-88.github.io/static/media/Schedule.69cfb728.gif",
         Jt = [
           {
             id: 1,
