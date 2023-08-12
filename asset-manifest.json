@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/abdou-88.github.io/static/css/main.872778d0.chunk.css",
-    "main.js": "/abdou-88.github.io/static/js/main.00a5e278.chunk.js",
-    "main.js.map": "/abdou-88.github.io/static/js/main.00a5e278.chunk.js.map",
+    "main.js": "/abdou-88.github.io/static/js/main.237f4592.chunk.js",
+    "main.js.map": "/abdou-88.github.io/static/js/main.237f4592.chunk.js.map",
     "runtime-main.js": "/abdou-88.github.io/static/js/runtime-main.b7ca2fde.js",
     "runtime-main.js.map": "/abdou-88.github.io/static/js/runtime-main.b7ca2fde.js.map",
     "static/css/2.877da11b.chunk.css": "/abdou-88.github.io/static/css/2.877da11b.chunk.css",
@@ -14,6 +14,7 @@
     "static/css/2.877da11b.chunk.css.map": "/abdou-88.github.io/static/css/2.877da11b.chunk.css.map",
     "static/css/main.872778d0.chunk.css.map": "/abdou-88.github.io/static/css/main.872778d0.chunk.css.map",
     "static/js/2.2db02a2f.chunk.js.LICENSE.txt": "/abdou-88.github.io/static/js/2.2db02a2f.chunk.js.LICENSE.txt",
+    "static/media/AbdellahYoussfiCV.1d74be66.pdf": "/abdou-88.github.io/static/media/AbdellahYoussfiCV.1d74be66.pdf",
     "static/media/index.css": "/abdou-88.github.io/static/media/BestermindRegular.e58a1922.ttf",
     "static/media/ComingS.b95ceba4.jpg": "/abdou-88.github.io/static/media/ComingS.b95ceba4.jpg",
     "static/media/EducationBG.03258d56.png": "/abdou-88.github.io/static/media/EducationBG.03258d56.png",
@@ -132,7 +133,6 @@
     "static/media/react.c3a0b34a.svg": "/abdou-88.github.io/static/media/react.c3a0b34a.svg",
     "static/media/redTheme-boy.74f6dfaa.svg": "/abdou-88.github.io/static/media/redTheme-boy.74f6dfaa.svg",
     "static/media/redTheme-girl.e2b9dd83.svg": "/abdou-88.github.io/static/media/redTheme-girl.e2b9dd83.svg",
-    "static/media/resume.9c5ea5a3.pdf": "/abdou-88.github.io/static/media/resume.9c5ea5a3.pdf",
     "static/media/ruby.775cc228.svg": "/abdou-88.github.io/static/media/ruby.775cc228.svg",
     "static/media/selenium.f0d42a91.svg": "/abdou-88.github.io/static/media/selenium.f0d42a91.svg",
     "static/media/signature.e16626fc.png": "/abdou-88.github.io/static/media/signature.e16626fc.png",
@@ -161,6 +161,6 @@
     "static/css/2.877da11b.chunk.css",
     "static/js/2.2db02a2f.chunk.js",
     "static/css/main.872778d0.chunk.css",
-    "static/js/main.00a5e278.chunk.js"
+    "static/js/main.237f4592.chunk.js"
   ]
 }
