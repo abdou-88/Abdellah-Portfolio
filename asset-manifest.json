@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/abdou-88.github.io/static/css/main.872778d0.chunk.css",
-    "main.js": "/abdou-88.github.io/static/js/main.237f4592.chunk.js",
-    "main.js.map": "/abdou-88.github.io/static/js/main.237f4592.chunk.js.map",
+    "main.js": "/abdou-88.github.io/static/js/main.c9551d30.chunk.js",
+    "main.js.map": "/abdou-88.github.io/static/js/main.c9551d30.chunk.js.map",
     "runtime-main.js": "/abdou-88.github.io/static/js/runtime-main.b7ca2fde.js",
     "runtime-main.js.map": "/abdou-88.github.io/static/js/runtime-main.b7ca2fde.js.map",
     "static/css/2.877da11b.chunk.css": "/abdou-88.github.io/static/css/2.877da11b.chunk.css",
@@ -161,6 +161,6 @@
     "static/css/2.877da11b.chunk.css",
     "static/js/2.2db02a2f.chunk.js",
     "static/css/main.872778d0.chunk.css",
-    "static/js/main.237f4592.chunk.js"
+    "static/js/main.c9551d30.chunk.js"
   ]
 }
