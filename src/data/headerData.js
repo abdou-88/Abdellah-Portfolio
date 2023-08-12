@@ -1,4 +1,4 @@
-import resume from '../assets/pdf/resume.pdf';
+import resume from "../assets/pdf/AbdellahYoussfiCV.pdf";
 
 import image from '../assets/img/abdu-praca3.jpg';
 import signature from "../assets/img/signature.png";
