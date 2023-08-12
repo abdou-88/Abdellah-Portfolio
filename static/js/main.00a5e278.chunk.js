@@ -143,7 +143,7 @@
           title: "Sharepoint Developer",
           desciption:
             "A highly motivated SharePoint Developer with hands-on experience of developing high quality Office 365 solutions and automations. Creative thinker with a solution-oriented approach.",
-          image: a.p + "static/media/abdu-praca3.c5beda4e.jpg",
+          image: a.p + "/static/media/abdu-praca3.c5beda4e.jpg",
           signature: a.p + "static/media/signature.e16626fc.png",
           resumePdf: P,
         };
@@ -578,7 +578,7 @@
         J =
           "I enjoy turning complex problems into a simple and beautiful solutions. Currently, I work at Lumen Technologies as a SharePoint developer, I have designed and built SharePoint extensions and webparts for internal stakeholders, with focus on fast, elegant and user experiences. When im not coding or automating a workflow, you will find me in the gym or freestyle wrestling with my kid ",
         U = 2,
-        G = a.p + "static/media/textureBG.45a40f47.jpg";
+        G = a.p + "/static/media/textureBG.45a40f47.jpg";
       var W = function () {
           var e = Object(r.useContext)(x).theme;
           return Object(g.jsxs)("div", {
@@ -1356,12 +1356,12 @@
             ],
           });
         },
-        Lt = a.p + "/abdou-88.github.io/static/media/boxfolio.1d3bb8b6.JPG",
-        Mt = a.p + "/abdou-88.github.io/static/media/ScoreCard.ad3e5e1c.JPG",
-        Tt = a.p + "/abdou-88.github.io/static/media/Schedule.717d71bc.JPG",
-        Rt = a.p + "/abdou-88.github.io/static/media/KBbot.6aabb717.JPG",
-        Yt = a.p + "/abdou-88.github.io/static/media/Schedule2.3b551f27.JPG",
-        Zt = a.p + "/abdou-88.github.io/static/media/Schedule.69cfb728.gif",
+        Lt = a.p + "/static/media/boxfolio.1d3bb8b6.JPG",
+        Mt = a.p + "/static/media/ScoreCard.ad3e5e1c.JPG",
+        Tt = a.p + "/static/media/Schedule.717d71bc.JPG",
+        Rt = a.p + "/static/media/KBbot.6aabb717.JPG",
+        Yt = a.p + "/static/media/Schedule2.3b551f27.JPG",
+        Zt = a.p + "/static/media/Schedule.69cfb728.gif",
         Jt = [
           {
             id: 1,
@@ -1430,7 +1430,7 @@
           },
         ],
         Ut = (a(158), a(195)),
-        Gt = a.p + "static/media/ComingS.b95ceba4.jpg";
+        Gt = a.p + "/static/media/ComingS.b95ceba4.jpg";
       a(159);
       var Wt = function (e) {
         var t,
